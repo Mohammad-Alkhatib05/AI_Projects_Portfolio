@@ -2,7 +2,7 @@
 
 A smart **Document Question Answering system** built with **n8n**, **Milvus**, **Cohere Embeddings**, **OpenAI GPT-4o**, and **Google Drive**.
 
-This workflow automatically watches a Google Drive folder for new PDF files, extracts their content, splits the text into chunks, generates embeddings, stores them in **Milvus**, and lets users ask questions through a **RAG agent**. :contentReference[oaicite:1]{index=1}
+This workflow automatically watches a Google Drive folder for new PDF files, extracts their content, splits the text into chunks, generates embeddings, stores them in **Milvus**, and lets users ask questions through a **RAG agent**.
 
 ---
 
