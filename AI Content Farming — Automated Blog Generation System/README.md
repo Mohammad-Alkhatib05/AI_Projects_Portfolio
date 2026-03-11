@@ -242,4 +242,3 @@ Possible enhancements:
 # Author
 
 Mohammad Alkhatib
-```
