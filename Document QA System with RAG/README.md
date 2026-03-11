@@ -34,7 +34,7 @@ This project demonstrates a practical **Retrieval-Augmented Generation (RAG)** p
 ## Project Preview
 
 <img width="1015" height="535" alt="Screenshot 2026-03-09 212858" src="https://github.com/user-attachments/assets/3546d528-ef82-4e64-855a-c7a70f87d6bd" />
-<img width="1015" height="535" alt="Screenshot 2026-03-09 212858" src="https://github.com/user-attachments/assets/3546d528-ef82-4e64-855a-c7a70f87d6bd" />
+
 
 ---
 
