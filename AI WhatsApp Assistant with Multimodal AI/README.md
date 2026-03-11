@@ -2,7 +2,7 @@
 
 An AI-powered WhatsApp assistant capable of understanding and responding to **text, images, audio, and video messages** using modern multimodal AI models.
 
-The system uses **n8n**, **Google Gemini**, and an **AI Agent** to process incoming WhatsApp messages and generate intelligent responses automatically. :contentReference[oaicite:0]{index=0}
+The system uses **n8n**, **Google Gemini**, and an **AI Agent** to process incoming WhatsApp messages and generate intelligent responses automatically.
 
 ---
 
