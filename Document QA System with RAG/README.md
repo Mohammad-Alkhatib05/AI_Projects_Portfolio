@@ -17,7 +17,7 @@ This project demonstrates a practical **Retrieval-Augmented Generation (RAG)** p
 - Splits the document into chunks
 - Generates multilingual embeddings using **Cohere**
 - Inserts the embeddings into **Milvus**
-- Uses an **OpenAI GPT-4o** powered agent to answer user questions based on retrieved chunks from the vector database :contentReference[oaicite:2]{index=2}
+- Uses an **OpenAI GPT-4o** powered agent to answer user questions based on retrieved chunks from the vector database 
 
 ---
 
@@ -27,7 +27,7 @@ This project demonstrates a practical **Retrieval-Augmented Generation (RAG)** p
 `Google Drive Trigger → Download File → Extract PDF Text → Split Text → Create Embeddings → Insert into Milvus`
 
 ### Chat Flow
-`Chat Trigger → RAG Agent → Retrieve Relevant Chunks from Milvus → Answer with GPT-4o` :contentReference[oaicite:3]{index=3}
+`Chat Trigger → RAG Agent → Retrieve Relevant Chunks from Milvus → Answer with GPT-4o` 
 
 ---
 
@@ -46,7 +46,7 @@ This project demonstrates a practical **Retrieval-Augmented Generation (RAG)** p
 - **Cohere Embeddings** (`embed-multilingual-v3.0`) for vectorization
 - **OpenAI GPT-4o** for answer generation
 - **PDF Extractor** for document parsing
-- **Buffer Memory** for conversational context handling :contentReference[oaicite:4]{index=4}
+- **Buffer Memory** for conversational context handling 
 
 ---
 
@@ -58,7 +58,7 @@ This project demonstrates a practical **Retrieval-Augmented Generation (RAG)** p
 - Multilingual embeddings with Cohere
 - Fast semantic search with Milvus
 - Conversational RAG agent
-- Clean modular workflow in n8n :contentReference[oaicite:5]{index=5}
+- Clean modular workflow in n8n 
 
 ---
 
@@ -69,7 +69,7 @@ This workflow uses a recursive character text splitter with:
 - **Chunk Size:** 700
 - **Chunk Overlap:** 60
 
-This helps preserve context while improving retrieval quality. :contentReference[oaicite:6]{index=6}
+This helps preserve context while improving retrieval quality.
 
 ---
 
@@ -94,7 +94,7 @@ Each chunk is converted into vector embeddings using **Cohere**.
 The chunks and embeddings are inserted into a **Milvus** collection.
 
 ### 7) User Question Answering
-When a user sends a message, the RAG agent retrieves relevant chunks from Milvus and uses **GPT-4o** to generate an answer. :contentReference[oaicite:7]{index=7}
+When a user sends a message, the RAG agent retrieves relevant chunks from Milvus and uses **GPT-4o** to generate an answer.
 
 ---
 
