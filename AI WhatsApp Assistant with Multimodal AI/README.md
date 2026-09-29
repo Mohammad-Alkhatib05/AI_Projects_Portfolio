@@ -37,7 +37,7 @@ The system processes WhatsApp messages through multiple AI pipelines depending o
 
 The workflow starts when a user sends a message on WhatsApp.
 
-The WhatsApp Trigger node receives the incoming message and passes it into the workflow for processing. :contentReference[oaicite:2]{index=2}
+The WhatsApp Trigger node receives the incoming message and passes it into the workflow for processing.
 
 ---
 
@@ -50,7 +50,7 @@ The system automatically detects the message type and routes it into different p
 - Image messages
 - Text messages
 
-Each branch processes the content using the appropriate AI model. :contentReference[oaicite:3]{index=3}
+Each branch processes the content using the appropriate AI model. 
 
 ---
 
@@ -110,7 +110,7 @@ The system uses:
 - Memory buffer for conversation history
 - External knowledge tools such as Wikipedia
 
-This enables the chatbot to provide informative and contextual responses. :contentReference[oaicite:4]{index=4}
+This enables the chatbot to provide informative and contextual responses.
 
 ---
 
