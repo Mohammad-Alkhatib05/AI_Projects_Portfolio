@@ -16,7 +16,7 @@ This project demonstrates how to build a **multimodal WhatsApp AI chatbot** that
 - Generate an intelligent response
 - Send the response back to the user automatically
 
-The workflow is built using **n8n automation** and an **AI Agent architecture**. :contentReference[oaicite:1]{index=1}
+The workflow is built using **n8n automation** and an **AI Agent architecture**.
 
 ---
 
